@@ -8,6 +8,6 @@ namespace Hahn.ApplicatonProcess.December2020.Data
     {
         //This interface is created to be implemented by Entities (Models) in order to have more freedom in choosing 
         //the Id type
-        TKey Id { get; set; }
+        TKey ID { get; set; }
     }
 }

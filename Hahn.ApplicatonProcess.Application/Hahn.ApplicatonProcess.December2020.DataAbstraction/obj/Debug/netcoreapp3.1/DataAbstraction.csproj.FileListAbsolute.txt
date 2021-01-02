@@ -1,0 +1,8 @@
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\bin\Debug\netcoreapp3.1\DataAbstraction.deps.json
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\bin\Debug\netcoreapp3.1\DataAbstraction.dll
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\bin\Debug\netcoreapp3.1\DataAbstraction.pdb
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\obj\Debug\netcoreapp3.1\DataAbstraction.AssemblyInfoInputs.cache
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\obj\Debug\netcoreapp3.1\DataAbstraction.AssemblyInfo.cs
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\obj\Debug\netcoreapp3.1\DataAbstraction.csproj.CoreCompileInputs.cache
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\obj\Debug\netcoreapp3.1\DataAbstraction.dll
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\obj\Debug\netcoreapp3.1\DataAbstraction.pdb

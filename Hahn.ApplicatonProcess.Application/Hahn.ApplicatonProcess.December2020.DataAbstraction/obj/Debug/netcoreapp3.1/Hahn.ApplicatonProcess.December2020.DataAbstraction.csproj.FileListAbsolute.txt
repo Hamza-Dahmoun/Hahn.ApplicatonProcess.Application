@@ -1,0 +1,2 @@
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.DataAbstraction.AssemblyInfoInputs.cache
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.DataAbstraction.AssemblyInfo.cs

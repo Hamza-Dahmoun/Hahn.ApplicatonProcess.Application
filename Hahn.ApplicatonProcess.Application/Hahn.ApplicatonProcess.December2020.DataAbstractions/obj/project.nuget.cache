@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WVK5VTpqjkc7oOn1DUAgWgmU06LH6vfxEZpEHHZIFvcJpyheAYvKlUG7fOvmFjSHPK3ZkctEJbH7sX7dgQNKbA==",
+  "success": true,
+  "projectFilePath": "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.DataAbstractions\\Hahn.ApplicatonProcess.December2020.DataAbstractions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

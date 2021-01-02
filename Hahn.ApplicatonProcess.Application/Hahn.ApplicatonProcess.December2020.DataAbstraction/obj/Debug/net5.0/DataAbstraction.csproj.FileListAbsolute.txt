@@ -1,0 +1,11 @@
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\bin\Debug\net5.0\DataAbstraction.deps.json
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\bin\Debug\net5.0\DataAbstraction.dll
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\bin\Debug\net5.0\ref\DataAbstraction.dll
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\bin\Debug\net5.0\DataAbstraction.pdb
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\obj\Debug\net5.0\DataAbstraction.GeneratedMSBuildEditorConfig.editorconfig
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\obj\Debug\net5.0\DataAbstraction.AssemblyInfoInputs.cache
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\obj\Debug\net5.0\DataAbstraction.AssemblyInfo.cs
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\obj\Debug\net5.0\DataAbstraction.csproj.CoreCompileInputs.cache
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\obj\Debug\net5.0\DataAbstraction.dll
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\obj\Debug\net5.0\ref\DataAbstraction.dll
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\obj\Debug\net5.0\DataAbstraction.pdb

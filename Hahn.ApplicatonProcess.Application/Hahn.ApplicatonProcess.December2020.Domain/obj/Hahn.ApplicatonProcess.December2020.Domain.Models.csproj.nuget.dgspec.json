@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.Models.csproj": {}
+    "D:\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.Models.csproj": {}
   },
   "projects": {
-    "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.DataAbstraction\\DataAbstraction.csproj": {
+    "D:\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.DataAbstraction\\DataAbstraction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.DataAbstraction\\DataAbstraction.csproj",
+        "projectUniqueName": "D:\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.DataAbstraction\\DataAbstraction.csproj",
         "projectName": "DataAbstraction",
-        "projectPath": "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.DataAbstraction\\DataAbstraction.csproj",
+        "projectPath": "D:\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.DataAbstraction\\DataAbstraction.csproj",
         "packagesPath": "C:\\Users\\ham.dahmoun\\.nuget\\packages\\",
-        "outputPath": "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.DataAbstraction\\obj\\",
+        "outputPath": "D:\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.DataAbstraction\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ham.dahmoun\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.Models.csproj": {
+    "D:\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.Models.csproj",
+        "projectUniqueName": "D:\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.Models.csproj",
         "projectName": "Hahn.ApplicatonProcess.December2020.Domain.Models",
-        "projectPath": "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.Models.csproj",
+        "projectPath": "D:\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.Models.csproj",
         "packagesPath": "C:\\Users\\ham.dahmoun\\.nuget\\packages\\",
-        "outputPath": "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.Domain\\obj\\",
+        "outputPath": "D:\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ham.dahmoun\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.DataAbstraction\\DataAbstraction.csproj": {
-                "projectPath": "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.DataAbstraction\\DataAbstraction.csproj"
+              "D:\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.DataAbstraction\\DataAbstraction.csproj": {
+                "projectPath": "D:\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.DataAbstraction\\DataAbstraction.csproj"
               }
             }
           }

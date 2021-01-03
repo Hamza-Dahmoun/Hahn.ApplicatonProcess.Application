@@ -1,4 +1,5 @@
 ﻿using Hahn.ApplicatonProcess.December2020.Data;
+using Hahn.ApplicatonProcess.December2020.DataAbstraction;
 using Hahn.ApplicatonProcess.December2020.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -11,8 +12,9 @@ namespace Hahn.ApplicatonProcess.December2020.Domain.Business.BusinessServices
 {
     public class ApplicantBusinessService
     {
-        protected readonly ApplicantRepository _applicantRepository;
-        public ApplicantBusinessService(ApplicantRepository applicantRepository)
+        //protected readonly ApplicantRepository _applicantRepository;
+        protected readonly IRepository<Applicant, int> _applicantRepository;
+        public ApplicantBusinessService(IRepository<Applicant, int> applicantRepository)
         {
             //injecting repository service
             _applicantRepository = applicantRepository;

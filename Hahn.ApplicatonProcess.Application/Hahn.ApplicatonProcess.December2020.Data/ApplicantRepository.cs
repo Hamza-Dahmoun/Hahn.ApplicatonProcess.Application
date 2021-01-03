@@ -1,5 +1,7 @@
 ﻿using Hahn.ApplicatonProcess.December2020.DataAbstraction;
 using Hahn.ApplicatonProcess.December2020.Domain.Models;
+using Infrastructure;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +13,16 @@ namespace Hahn.ApplicatonProcess.December2020.Data
 {
     public class ApplicantRepository : IRepository<Applicant, int>
     {
+        protected readonly ApplicationDBContext _dbContext;
+        protected readonly DbSet<Applicant> _dbSet;
+
+        public ApplicantRepository(ApplicationDBContext dbContext)
+        {
+            //injecting dbContext & dbSet services
+            _dbContext = dbContext;
+            _dbSet = _dbContext.Set<Applicant>();
+        }
+
         public int Add(Applicant entity)
         {
             throw new NotImplementedException();

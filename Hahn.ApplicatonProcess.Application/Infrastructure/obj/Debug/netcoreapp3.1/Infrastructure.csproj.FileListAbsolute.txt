@@ -1,0 +1,9 @@
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb

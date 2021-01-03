@@ -25,47 +25,122 @@ namespace Hahn.ApplicatonProcess.December2020.Data
 
         public int Add(Applicant entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _dbContext.Add(entity);
+                return _dbContext.SaveChanges();
+            }
+            catch(Exception E)
+            {
+                throw E;
+            }
         }
 
         public int Count()
         {
-            throw new NotImplementedException();
+            try
+            {
+                int count = 0;
+                count = _dbSet.AsNoTracking().Count();
+                return count;
+            }
+            catch(Exception E)
+            {
+                throw E;
+            }            
         }
 
         public int Count(Expression<Func<Applicant, bool>> predicate)
-        {
-            throw new NotImplementedException();
+        {            
+            try
+            {
+                return _dbSet.Count(predicate);
+            }
+            catch(Exception E)
+            {
+                throw E;
+            }
         }
 
         public int Delete(Applicant entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _dbContext.Remove(entity);
+                return _dbContext.SaveChanges();
+            }
+            catch (Exception E)
+            {
+                throw E;
+            }
         }
 
         public List<Applicant> GetAll()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return _dbSet.AsNoTracking().ToList();
+            }
+            catch(Exception E)
+            {
+                throw E;
+            }
         }
 
         public List<Applicant> GetAllFiltered(Expression<Func<Applicant, bool>> prediacte)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return _dbSet.Where(prediacte).ToList();
+            }
+            catch (Exception E)
+            {
+                throw E;
+            }
         }
 
         public Applicant GetById(int Id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return _dbSet.Where(a => a.ID == Id).SingleOrDefault();
+            }
+            catch(Exception E)
+            {
+                throw E;
+            }
         }
 
         public Applicant GetSingle(Expression<Func<Applicant, bool>> predicate)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return _dbSet.Where(predicate).SingleOrDefault();
+            }
+            catch (Exception E)
+            {
+                throw E;
+            }
         }
 
         public int Update(Applicant entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var myEntity = GetById(entity.ID);
+                myEntity.Name = entity.Name;
+                myEntity.Address = entity.Address;
+                myEntity.Age = entity.Age;
+                myEntity.CountryOfOrigin = entity.CountryOfOrigin;
+                myEntity.EmailAddress = entity.EmailAddress;
+                myEntity.FamilyName = entity.FamilyName;
+                myEntity.Hired = entity.Hired;
+                return _dbContext.SaveChanges();
+            }
+            catch (Exception E)
+            {
+                throw E;
+            }
         }
     }
 }

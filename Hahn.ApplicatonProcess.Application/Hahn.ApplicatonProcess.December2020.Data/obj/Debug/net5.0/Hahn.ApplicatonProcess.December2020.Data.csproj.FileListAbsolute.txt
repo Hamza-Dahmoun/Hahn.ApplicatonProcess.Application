@@ -15,3 +15,5 @@ D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.Applicat
 D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\net5.0\Hahn.ApplicatonProcess.December2020.Data.dll
 D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\net5.0\ref\Hahn.ApplicatonProcess.December2020.Data.dll
 D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\net5.0\Hahn.ApplicatonProcess.December2020.Data.pdb
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\net5.0\Infrastructure.dll
+D:\to new laptop\fcc and others\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\net5.0\Infrastructure.pdb

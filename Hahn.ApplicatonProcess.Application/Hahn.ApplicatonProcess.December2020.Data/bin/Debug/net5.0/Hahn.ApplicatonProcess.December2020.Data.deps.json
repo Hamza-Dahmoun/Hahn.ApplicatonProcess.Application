@@ -9,7 +9,7 @@
       "Hahn.ApplicatonProcess.December2020.Data/1.0.0": {
         "dependencies": {
           "DataAbstraction": "1.0.0",
-          "Hahn.ApplicatonProcess.December2020.Domain": "1.0.0",
+          "Hahn.ApplicatonProcess.December2020.Domain.Models": "1.0.0",
           "Infrastructure": "1.0.0"
         },
         "runtime": {
@@ -138,17 +138,17 @@
           "DataAbstraction.dll": {}
         }
       },
-      "Hahn.ApplicatonProcess.December2020.Domain/1.0.0": {
+      "Hahn.ApplicatonProcess.December2020.Domain.Models/1.0.0": {
         "dependencies": {
           "DataAbstraction": "1.0.0"
         },
         "runtime": {
-          "Hahn.ApplicatonProcess.December2020.Domain.dll": {}
+          "Hahn.ApplicatonProcess.December2020.Domain.Models.dll": {}
         }
       },
       "Infrastructure/1.0.0": {
         "dependencies": {
-          "Hahn.ApplicatonProcess.December2020.Domain": "1.0.0",
+          "Hahn.ApplicatonProcess.December2020.Domain.Models": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.0"
         },
         "runtime": {
@@ -266,7 +266,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Hahn.ApplicatonProcess.December2020.Domain/1.0.0": {
+    "Hahn.ApplicatonProcess.December2020.Domain.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

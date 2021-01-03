@@ -171,24 +171,24 @@
           "bin/placeholder/DataAbstraction.dll": {}
         }
       },
-      "Hahn.ApplicatonProcess.December2020.Domain/1.0.0": {
+      "Hahn.ApplicatonProcess.December2020.Domain.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "DataAbstraction": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Hahn.ApplicatonProcess.December2020.Domain.dll": {}
+          "bin/placeholder/Hahn.ApplicatonProcess.December2020.Domain.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Hahn.ApplicatonProcess.December2020.Domain.dll": {}
+          "bin/placeholder/Hahn.ApplicatonProcess.December2020.Domain.Models.dll": {}
         }
       },
       "Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Hahn.ApplicatonProcess.December2020.Domain": "1.0.0",
+          "Hahn.ApplicatonProcess.December2020.Domain.Models": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.0"
         },
         "compile": {
@@ -562,10 +562,10 @@
       "path": "../Hahn.ApplicatonProcess.December2020.DataAbstraction/DataAbstraction.csproj",
       "msbuildProject": "../Hahn.ApplicatonProcess.December2020.DataAbstraction/DataAbstraction.csproj"
     },
-    "Hahn.ApplicatonProcess.December2020.Domain/1.0.0": {
+    "Hahn.ApplicatonProcess.December2020.Domain.Models/1.0.0": {
       "type": "project",
-      "path": "../Hahn.ApplicatonProcess.December2020.Domain/Hahn.ApplicatonProcess.December2020.Domain.csproj",
-      "msbuildProject": "../Hahn.ApplicatonProcess.December2020.Domain/Hahn.ApplicatonProcess.December2020.Domain.csproj"
+      "path": "../Hahn.ApplicatonProcess.December2020.Domain/Hahn.ApplicatonProcess.December2020.Domain.Models.csproj",
+      "msbuildProject": "../Hahn.ApplicatonProcess.December2020.Domain/Hahn.ApplicatonProcess.December2020.Domain.Models.csproj"
     },
     "Infrastructure/1.0.0": {
       "type": "project",
@@ -576,7 +576,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "DataAbstraction >= 1.0.0",
-      "Hahn.ApplicatonProcess.December2020.Domain >= 1.0.0",
+      "Hahn.ApplicatonProcess.December2020.Domain.Models >= 1.0.0",
       "Infrastructure >= 1.0.0"
     ]
   },
@@ -610,8 +610,8 @@
             "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.DataAbstraction\\DataAbstraction.csproj": {
               "projectPath": "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.DataAbstraction\\DataAbstraction.csproj"
             },
-            "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.csproj": {
-              "projectPath": "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.csproj"
+            "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.Models.csproj": {
+              "projectPath": "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.Models.csproj"
             },
             "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Infrastructure\\Infrastructure.csproj": {
               "projectPath": "D:\\to new laptop\\fcc and others\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Infrastructure\\Infrastructure.csproj"

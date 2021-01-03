@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Hahn.ApplicatonProcess.December2020.Domain.Models/1.0.0": {
+        "dependencies": {
+          "DataAbstraction": "1.0.0"
+        },
+        "runtime": {
+          "Hahn.ApplicatonProcess.December2020.Domain.Models.dll": {}
+        }
+      },
+      "DataAbstraction/1.0.0": {
+        "runtime": {
+          "DataAbstraction.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hahn.ApplicatonProcess.December2020.Domain.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataAbstraction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

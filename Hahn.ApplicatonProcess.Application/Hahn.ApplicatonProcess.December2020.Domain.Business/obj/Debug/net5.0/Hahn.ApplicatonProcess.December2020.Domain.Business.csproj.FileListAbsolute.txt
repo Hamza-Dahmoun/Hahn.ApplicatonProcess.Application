@@ -11,3 +11,12 @@ D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.Ap
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain.Business\obj\Debug\net5.0\Hahn.ApplicatonProcess.December2020.Domain.Business.dll
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain.Business\obj\Debug\net5.0\ref\Hahn.ApplicatonProcess.December2020.Domain.Business.dll
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain.Business\obj\Debug\net5.0\Hahn.ApplicatonProcess.December2020.Domain.Business.pdb
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain.Business\bin\Debug\net5.0\DataAbstraction.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain.Business\bin\Debug\net5.0\Hahn.ApplicatonProcess.December2020.Data.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain.Business\bin\Debug\net5.0\Hahn.ApplicatonProcess.December2020.Domain.Models.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain.Business\bin\Debug\net5.0\Infrastructure.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain.Business\bin\Debug\net5.0\Hahn.ApplicatonProcess.December2020.Data.pdb
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain.Business\bin\Debug\net5.0\Hahn.ApplicatonProcess.December2020.Domain.Models.pdb
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain.Business\bin\Debug\net5.0\DataAbstraction.pdb
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain.Business\bin\Debug\net5.0\Infrastructure.pdb
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain.Business\obj\Debug\net5.0\Hahn.ApplicatonProcess.December2020.Domain.Business.csproj.CopyComplete

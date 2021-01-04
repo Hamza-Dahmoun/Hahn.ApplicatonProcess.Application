@@ -1,3 +1,4 @@
+using Hahn.ApplicatonProcess.December2020.Domain.Business.BusinessServices;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +29,10 @@ namespace API
         {
 
             services.AddControllers();
+
+            //registering ApplicantBusinessService
+            services.AddTransient<ApplicantBusinessService>();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });

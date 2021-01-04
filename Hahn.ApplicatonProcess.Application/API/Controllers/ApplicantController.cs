@@ -1,4 +1,5 @@
 ﻿using Hahn.ApplicatonProcess.December2020.Domain.Business.BusinessServices;
+using Hahn.ApplicatonProcess.December2020.Domain.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -16,6 +17,26 @@ namespace API.Controllers
         public ApplicantController(ApplicantBusinessService applicantBusinessService)
         {
             _applicantBusinessService = applicantBusinessService;
+        }
+
+        [HttpGet]
+        public List<Applicant> Get()
+        {
+            return _applicantBusinessService.GetAll();
+        }
+
+        [HttpGet("{id}")]
+        public ActionResult<Applicant> Get(int id)
+        {
+            var applicant = _applicantBusinessService.GetById(id);
+            if (applicant == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return applicant;
+            }
         }
     }
 }

@@ -79,7 +79,8 @@ namespace Hahn.ApplicatonProcess.December2020.Data
         {
             try
             {
-                return _dbSet.AsNoTracking().ToList();
+                var applicants = _dbSet.ToList();
+                return applicants;
             }
             catch(Exception E)
             {

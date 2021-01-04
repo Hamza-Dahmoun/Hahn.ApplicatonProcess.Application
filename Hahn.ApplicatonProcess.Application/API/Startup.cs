@@ -32,8 +32,9 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //adding a inMemory database context
-            services.AddDbContext<ApplicationDBContext>(options => options.UseInMemoryDatabase(databaseName:"ApplicantsDB"));
+            //regiter an inMemory database context with a singleton life time so that CRUD operations on the data that are in memory will clear and understandable
+            services.AddDbContext<ApplicationDBContext>(options => options.UseInMemoryDatabase(databaseName: "ApplicantsDB"), ServiceLifetime.Singleton);
+
 
             //registering ApplicantRepository
             services.AddTransient<IRepository<Applicant, int>, ApplicantRepository>();

@@ -1,8 +1,13 @@
+using Hahn.ApplicatonProcess.December2020.Data;
+using Hahn.ApplicatonProcess.December2020.DataAbstraction;
 using Hahn.ApplicatonProcess.December2020.Domain.Business.BusinessServices;
+using Hahn.ApplicatonProcess.December2020.Domain.Models;
+using Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -27,11 +32,16 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //adding a inMemory database context
+            services.AddDbContext<ApplicationDBContext>(options => options.UseInMemoryDatabase(databaseName:"ApplicantsDB"));
 
-            services.AddControllers();
+            //registering ApplicantRepository
+            services.AddTransient<IRepository<Applicant, int>, ApplicantRepository>();
 
             //registering ApplicantBusinessService
             services.AddTransient<ApplicantBusinessService>();
+
+            services.AddControllers();
 
             services.AddSwaggerGen(c =>
             {

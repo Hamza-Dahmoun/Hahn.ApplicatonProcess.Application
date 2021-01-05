@@ -64,5 +64,40 @@ namespace API.Controllers
                 return StatusCode(500, "Server error! Delete operation failed.");
             }
         }
+
+        [HttpPut("{id}")]
+        public ActionResult Update(int id, Applicant applicant)
+        {
+            try
+            {
+                var existingApplicant = _applicantBusinessService.GetById(id);
+                if (existingApplicant == null)
+                {
+                    return NotFound();
+                }
+
+                existingApplicant.Name = applicant.Name;
+                existingApplicant.FamilyName = applicant.FamilyName;
+                existingApplicant.Age = applicant.Age;
+                existingApplicant.Address = applicant.Address;
+                existingApplicant.EmailAddress = applicant.EmailAddress;
+                existingApplicant.CountryOfOrigin = applicant.CountryOfOrigin;
+                existingApplicant.Hired = applicant.Hired;
+
+                int result = _applicantBusinessService.Update(existingApplicant);
+                if (result > 0)
+                {
+                    return NoContent();
+                }
+                else
+                {
+                    return StatusCode(500, "Server error! Update operation failed.");
+                }
+            }
+            catch(Exception E)
+            {
+                return StatusCode(500, "Server error! Update operation failed.");
+            }
+        }
     }
 }

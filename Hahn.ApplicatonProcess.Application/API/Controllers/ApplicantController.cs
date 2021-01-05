@@ -38,5 +38,31 @@ namespace API.Controllers
                 return applicant;
             }
         }
+
+        [HttpDelete("{id}")]
+        public ActionResult Delete(int id)
+        {
+            try
+            {
+                var applicant = _applicantBusinessService.GetById(id);
+                if (applicant == null)
+                {
+                    return NotFound();
+                }
+                int result = _applicantBusinessService.Delete(applicant);
+                if (result > 0)
+                {
+                    return NoContent();
+                }
+                else
+                {
+                    return StatusCode(500, "Server error! Delete operation failed.");
+                }
+            }
+            catch(Exception E)
+            {
+                return StatusCode(500, "Server error! Delete operation failed.");
+            }
+        }
     }
 }

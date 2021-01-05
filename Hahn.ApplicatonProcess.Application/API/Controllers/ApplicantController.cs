@@ -99,5 +99,26 @@ namespace API.Controllers
                 return StatusCode(500, "Server error! Update operation failed.");
             }
         }
+
+        [HttpPost]
+        public ActionResult Create(Applicant applicant)
+        {
+            try
+            {
+                int result = _applicantBusinessService.Add(applicant);
+                if (result > 0)
+                {
+                    return CreatedAtAction(nameof(Get), new { applicant.ID }, applicant);
+                }
+                else
+                {
+                    return StatusCode(500, "Server error! Create operation failed.");
+                }
+            }
+            catch (Exception E)
+            {
+                return StatusCode(500, "Server error! Create operation failed.");
+            }
+        }
     }
 }

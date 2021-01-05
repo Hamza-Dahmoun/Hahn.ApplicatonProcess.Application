@@ -1,4 +1,5 @@
 ﻿using Hahn.ApplicatonProcess.December2020.Domain.Business.BusinessServices;
+using Hahn.ApplicatonProcess.December2020.Domain.Business.Exceptions;
 using Hahn.ApplicatonProcess.December2020.Domain.Models;
 using Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs;
 using Microsoft.AspNetCore.Http;
@@ -50,19 +51,16 @@ namespace API.Controllers
                 {
                     return NotFound();
                 }
-                int result = _applicantBusinessService.Delete(applicant);
-                if (result > 0)
-                {
-                    return NoContent();
-                }
-                else
-                {
-                    return StatusCode(500, "Server error! Delete operation failed.");
-                }
+                _applicantBusinessService.Delete(applicant);
+                return NoContent();
             }
-            catch(Exception E)
+            catch (DataNotUpdatedException E)
             {
-                return StatusCode(500, "Server error! Delete operation failed.");
+                return StatusCode(500, "Server error! " + E.Message);
+            }
+            catch (Exception E)
+            {
+                return StatusCode(500, "Server error!");
             }
         }
 
@@ -85,19 +83,16 @@ namespace API.Controllers
                 existingApplicant.CountryOfOrigin = applicantDTO.CountryOfOrigin;
                 existingApplicant.Hired = applicantDTO.Hired;
 
-                int result = _applicantBusinessService.Update(existingApplicant);
-                if (result > 0)
-                {
-                    return NoContent();
-                }
-                else
-                {
-                    return StatusCode(500, "Server error! Update operation failed.");
-                }
+                _applicantBusinessService.Update(existingApplicant);
+                return NoContent();
             }
-            catch(Exception E)
+            catch (DataNotUpdatedException E)
             {
-                return StatusCode(500, "Server error! Update operation failed.");
+                return StatusCode(500, "Server error! " + E.Message);
+            }
+            catch (Exception E)
+            {
+                return StatusCode(500, "Server error!");
             }
         }
 
@@ -116,15 +111,13 @@ namespace API.Controllers
                     CountryOfOrigin = applicantDTO.CountryOfOrigin,
                     Hired = applicantDTO.Hired
                 };
-                int result = _applicantBusinessService.Add(applicant);
-                if (result > 0)
-                {
-                    return CreatedAtAction(nameof(Get), new { applicant.ID }, applicant);
-                }
-                else
-                {
-                    return StatusCode(500, "Server error! Create operation failed.");
-                }
+
+                _applicantBusinessService.Add(applicant);
+                return CreatedAtAction(nameof(Get), new { applicant.ID }, applicant);
+            }
+            catch (DataNotUpdatedException E)
+            {
+                return StatusCode(500, "Server error! " + E.Message);
             }
             catch (Exception E)
             {

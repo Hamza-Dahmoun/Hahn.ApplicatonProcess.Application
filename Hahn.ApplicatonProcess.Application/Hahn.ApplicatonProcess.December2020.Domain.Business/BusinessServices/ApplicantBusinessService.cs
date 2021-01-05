@@ -1,5 +1,6 @@
 ﻿using Hahn.ApplicatonProcess.December2020.Data;
 using Hahn.ApplicatonProcess.December2020.DataAbstraction;
+using Hahn.ApplicatonProcess.December2020.Domain.Business.Exceptions;
 using Hahn.ApplicatonProcess.December2020.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -25,7 +26,16 @@ namespace Hahn.ApplicatonProcess.December2020.Domain.Business.BusinessServices
         {
             try
             {
-                return _applicantRepository.Add(entity);
+                int result = _applicantRepository.Add(entity);
+                if (result == 0)
+                {
+                    throw new DataNotUpdatedException("Create operation failed!");
+                }
+                return result;
+            }
+            catch (DataNotUpdatedException E)
+            {
+                throw E;
             }
             catch (Exception E)
             {
@@ -61,7 +71,16 @@ namespace Hahn.ApplicatonProcess.December2020.Domain.Business.BusinessServices
         {
             try
             {
-                return _applicantRepository.Delete(entity);
+                int result = _applicantRepository.Delete(entity);
+                if (result == 0)
+                {
+                    throw new DataNotUpdatedException("Delete operation failed!");
+                }
+                return result;
+            }
+            catch (DataNotUpdatedException E)
+            {
+                throw E;
             }
             catch (Exception E)
             {
@@ -121,7 +140,16 @@ namespace Hahn.ApplicatonProcess.December2020.Domain.Business.BusinessServices
         {
             try
             {
-                return _applicantRepository.Update(entity);
+                int result = _applicantRepository.Update(entity);
+                if (result == 0)
+                {
+                    throw new DataNotUpdatedException("Update operation failed!");
+                }
+                return result;
+            }
+            catch (DataNotUpdatedException E)
+            {
+                throw E;
             }
             catch (Exception E)
             {

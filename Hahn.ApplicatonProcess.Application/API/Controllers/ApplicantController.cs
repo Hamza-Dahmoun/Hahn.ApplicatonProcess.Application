@@ -67,7 +67,7 @@ namespace API.Controllers
         }
 
         [HttpPut("{id}")]
-        public ActionResult Update(int id, Applicant applicant)
+        public ActionResult Update(int id, UpdateApplicantDTO applicantDTO)
         {
             try
             {
@@ -77,13 +77,13 @@ namespace API.Controllers
                     return NotFound();
                 }
 
-                existingApplicant.Name = applicant.Name;
-                existingApplicant.FamilyName = applicant.FamilyName;
-                existingApplicant.Age = applicant.Age;
-                existingApplicant.Address = applicant.Address;
-                existingApplicant.EmailAddress = applicant.EmailAddress;
-                existingApplicant.CountryOfOrigin = applicant.CountryOfOrigin;
-                existingApplicant.Hired = applicant.Hired;
+                existingApplicant.Name = applicantDTO.Name;
+                existingApplicant.FamilyName = applicantDTO.FamilyName;
+                existingApplicant.Age = applicantDTO.Age;
+                existingApplicant.Address = applicantDTO.Address;
+                existingApplicant.EmailAddress = applicantDTO.EmailAddress;
+                existingApplicant.CountryOfOrigin = applicantDTO.CountryOfOrigin;
+                existingApplicant.Hired = applicantDTO.Hired;
 
                 int result = _applicantBusinessService.Update(existingApplicant);
                 if (result > 0)
@@ -102,10 +102,20 @@ namespace API.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(Applicant applicant)
+        public ActionResult<ApplicantDTO> Create(CreateApplicantDTO applicantDTO)
         {
             try
             {
+                Applicant applicant = new()
+                {
+                    Name = applicantDTO.Name,
+                    FamilyName = applicantDTO.FamilyName,
+                    Age = applicantDTO.Age,
+                    Address = applicantDTO.Address,
+                    EmailAddress = applicantDTO.EmailAddress,
+                    CountryOfOrigin = applicantDTO.CountryOfOrigin,
+                    Hired = applicantDTO.Hired
+                };
                 int result = _applicantBusinessService.Add(applicant);
                 if (result > 0)
                 {

@@ -1,5 +1,6 @@
 ﻿using Hahn.ApplicatonProcess.December2020.Domain.Business.BusinessServices;
 using Hahn.ApplicatonProcess.December2020.Domain.Models;
+using Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -20,13 +21,13 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public List<Applicant> Get()
+        public List<ApplicantDTO> Get()
         {
-            return _applicantBusinessService.GetAll();
+            return _applicantBusinessService.GetAll().Select(applicant =>applicant.AsDTO()).ToList();
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Applicant> Get(int id)
+        public ActionResult<ApplicantDTO> Get(int id)
         {
             var applicant = _applicantBusinessService.GetById(id);
             if (applicant == null)
@@ -35,7 +36,7 @@ namespace API.Controllers
             }
             else
             {
-                return applicant;
+                return applicant.AsDTO();
             }
         }
 

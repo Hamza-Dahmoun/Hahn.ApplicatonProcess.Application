@@ -67,3 +67,6 @@ D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\obj
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\obj\Debug\net5.0\ref\MVC.dll
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\obj\Debug\net5.0\MVC.pdb
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\obj\Debug\net5.0\MVC.genruntimeconfig.cache
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

@@ -26,12 +26,17 @@ namespace Hahn.ApplicatonProcess.December2020.Domain.Business.BusinessServices
         {
             try
             {
+                OnAdding(entity);
                 int result = _applicantRepository.Add(entity);
                 if (result == 0)
                 {
                     throw new DataNotUpdatedException("Create operation failed!");
                 }
                 return result;
+            }
+            catch (BusinessException E)
+            {
+                throw E;
             }
             catch (DataNotUpdatedException E)
             {
@@ -140,12 +145,17 @@ namespace Hahn.ApplicatonProcess.December2020.Domain.Business.BusinessServices
         {
             try
             {
+                OnUpdating(entity);
                 int result = _applicantRepository.Update(entity);
                 if (result == 0)
                 {
                     throw new DataNotUpdatedException("Update operation failed!");
                 }
                 return result;
+            }
+            catch (BusinessException E)
+            {
+                throw E;
             }
             catch (DataNotUpdatedException E)
             {
@@ -154,6 +164,24 @@ namespace Hahn.ApplicatonProcess.December2020.Domain.Business.BusinessServices
             catch (Exception E)
             {
                 throw E;
+            }
+        }
+
+        protected void OnAdding(Applicant entity)
+        {
+            //Rule: email address should be unique
+            if(_applicantRepository.Count(a=>a.EmailAddress == entity.EmailAddress)>0)
+            {
+                throw new BusinessException("Email address already exists.");
+            }
+        }
+
+        protected void OnUpdating(Applicant entity)
+        {
+            //Rule: email address should be unique
+            if (_applicantRepository.Count(a => a.EmailAddress == entity.EmailAddress) > 1)
+            {
+                throw new BusinessException("Email address already exists.");
             }
         }
     }

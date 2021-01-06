@@ -86,6 +86,10 @@ namespace API.Controllers
                 _applicantBusinessService.Update(existingApplicant);
                 return NoContent();
             }
+            catch (BusinessException E)
+            {
+                return StatusCode(500, "Server error! " + E.Message);
+            }
             catch (DataNotUpdatedException E)
             {
                 return StatusCode(500, "Server error! " + E.Message);
@@ -114,6 +118,10 @@ namespace API.Controllers
 
                 _applicantBusinessService.Add(applicant);
                 return CreatedAtAction(nameof(Get), new { applicant.ID }, applicant);
+            }
+            catch (BusinessException E)
+            {
+                return StatusCode(500, "Server error! " + E.Message);
             }
             catch (DataNotUpdatedException E)
             {

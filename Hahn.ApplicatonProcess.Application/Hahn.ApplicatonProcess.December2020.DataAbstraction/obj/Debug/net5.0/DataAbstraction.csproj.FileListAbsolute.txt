@@ -21,3 +21,4 @@ D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.Ap
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\obj\Debug\net5.0\DataAbstraction.dll
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\obj\Debug\net5.0\ref\DataAbstraction.dll
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\obj\Debug\net5.0\DataAbstraction.pdb
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.DataAbstraction\obj\Debug\net5.0\DataAbstraction.csprojAssemblyReference.cache

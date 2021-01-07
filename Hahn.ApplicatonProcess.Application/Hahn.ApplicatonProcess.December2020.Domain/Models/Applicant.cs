@@ -10,6 +10,7 @@ namespace Hahn.ApplicatonProcess.December2020.Domain.Models
 {
     public class Applicant : IEntity<int>
     {
+        [Key]
         public int ID { get; set; }
         public string Name { get; set; }
         public string FamilyName { get; set; }

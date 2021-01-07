@@ -88,7 +88,7 @@ namespace API.Controllers
             }
             catch (BusinessException E)
             {
-                return StatusCode(500, "Server error! " + E.Message);
+                return StatusCode(400, "Server error! " + E.Message);
             }
             catch (DataNotUpdatedException E)
             {
@@ -121,7 +121,7 @@ namespace API.Controllers
             }
             catch (BusinessException E)
             {
-                return StatusCode(500, "Server error! " + E.Message);
+                return StatusCode(400, "Server error! " + E.Message);
             }
             catch (DataNotUpdatedException E)
             {

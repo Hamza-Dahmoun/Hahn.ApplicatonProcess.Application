@@ -17,6 +17,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FluentValidation.AspNetCore;
+using FluentValidation;
+using Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs;
+using Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.Validators;
 
 namespace API
 {
@@ -42,7 +46,12 @@ namespace API
             //registering ApplicantBusinessService
             services.AddTransient<ApplicantBusinessService>();
 
-            services.AddControllers();
+            //registering FluentValidation services
+            services.AddControllers().AddFluentValidation();
+
+            //registering fluentValidation for CreateApplicantDTO and UpdateApplicantDTO classes
+            services.AddTransient<IValidator<CreateApplicantDTO>, CreateApplicantDTOValidator>();
+            services.AddTransient<IValidator<UpdateApplicantDTO>, UpdateApplicantDTOValidator>();
 
             services.AddSwaggerGen(c =>
             {

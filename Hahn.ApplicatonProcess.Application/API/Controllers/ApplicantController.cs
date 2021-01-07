@@ -1,7 +1,10 @@
-﻿using Hahn.ApplicatonProcess.December2020.Domain.Business.BusinessServices;
+﻿using FluentValidation;
+using FluentValidation.Results;
+using Hahn.ApplicatonProcess.December2020.Domain.Business.BusinessServices;
 using Hahn.ApplicatonProcess.December2020.Domain.Business.Exceptions;
 using Hahn.ApplicatonProcess.December2020.Domain.Models;
 using Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs;
+using Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.Validators;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "hxp9NbKwGPFsfrOqb6z1iOc3o28xx5hXTfCx/XnhjnHHLRscOAbM0Y/vIIpM9aGBJFsQBbYUDg3sgmAisCoPUQ==",
+  "dgSpecHash": "Zgpot9ezVmCo+sgdIoJ2i3yMvHVYeZQkpOPyh/kzsJJSk0A+twp38Re3gntssJkeYJ4POYgofrxaLoAjTBYXMw==",
   "success": true,
   "projectFilePath": "D:\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ham.dahmoun\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
+    "C:\\Users\\ham.dahmoun\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",
+    "C:\\Users\\ham.dahmoun\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.3.0\\fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.1\\microsoft.aspnetcore.authentication.jwtbearer.5.0.1.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.1\\microsoft.aspnetcore.authentication.openidconnect.5.0.1.nupkg.sha512",

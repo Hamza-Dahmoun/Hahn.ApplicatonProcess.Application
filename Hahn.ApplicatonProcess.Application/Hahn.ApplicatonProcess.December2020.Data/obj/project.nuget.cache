@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "4UqCeapOj1hBsahQ+Wl+ozyTAPOvPRATE2x+hNs5tjDKPYUAfkxNU9mtai7lrf4qeiBXIyPj89XzYqIUOtGOaQ==",
+  "dgSpecHash": "C72yz0Ao7tzJBhurcOxHCJ7ShEnbFXlWQqkt65OOT5UXszwinbpY2/Saoyd9IefOk7C3m2/OndG6mU3AP9vEkw==",
   "success": true,
   "projectFilePath": "D:\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.Data\\Hahn.ApplicatonProcess.December2020.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ham.dahmoun\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
+    "C:\\Users\\ham.dahmoun\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",
+    "C:\\Users\\ham.dahmoun\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.3.0\\fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.0\\microsoft.entityframeworkcore.analyzers.5.0.0.nupkg.sha512",

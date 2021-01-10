@@ -14,6 +14,8 @@ namespace Hahn.ApplicatonProcess.December2020.DataAbstraction
         T GetSingle(Expression<Func<T, bool>> predicate);
         List<T> GetAll();
         List<T> GetAllFiltered(Expression<Func<T, bool>> prediacte);
+        PagedResult<T> GetAllFilteredPaged(Expression<Func<T, bool>> predicate, string orderBy, string orderDirection, int startRowIndex = 0, int maxRows = 10);
+        PagedResult<T> GetAllPaged(string orderBy, string orderDirection, int startRowIndex = 0, int maxRows = 10);
 
 
         int Count();

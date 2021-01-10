@@ -73,3 +73,15 @@ D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\FluentValidation.dll
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\System.Linq.Dynamic.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\Serilog.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\Serilog.AspNetCore.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\Serilog.Sinks.File.dll

@@ -1,0 +1,147 @@
+2021-01-10 23:57:14.267 +01:00 [INF] Hello, world!
+2021-01-11 00:01:53.322 +01:00 [DBG] Hosting starting
+2021-01-11 00:01:53.860 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7D4B9227983B7C52E3EAB77EAB67203D9C2DE1DE)
+2021-01-11 00:01:53.978 +01:00 [INF] Now listening on: https://localhost:5001
+2021-01-11 00:01:53.979 +01:00 [INF] Now listening on: http://localhost:5000
+2021-01-11 00:01:53.980 +01:00 [DBG] Loaded hosting startup assembly API
+2021-01-11 00:01:53.982 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-11 00:01:53.983 +01:00 [INF] Hosting environment: Development
+2021-01-11 00:01:53.984 +01:00 [INF] Content root path: D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API
+2021-01-11 00:01:53.987 +01:00 [DBG] Hosting started
+2021-01-11 00:01:54.091 +01:00 [DBG] Connection id "0HM5LNESGJHQP" received FIN.
+2021-01-11 00:01:54.091 +01:00 [DBG] Connection id "0HM5LNESGJHQO" received FIN.
+2021-01-11 00:01:54.112 +01:00 [DBG] Connection id "0HM5LNESGJHQO" accepted.
+2021-01-11 00:01:54.112 +01:00 [DBG] Connection id "0HM5LNESGJHQP" accepted.
+2021-01-11 00:01:54.115 +01:00 [DBG] Connection id "0HM5LNESGJHQO" started.
+2021-01-11 00:01:54.115 +01:00 [DBG] Connection id "0HM5LNESGJHQP" started.
+2021-01-11 00:01:54.144 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-01-11 00:01:54.144 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-01-11 00:01:55.504 +01:00 [DBG] Connection id "0HM5LNESGJHQO" stopped.
+2021-01-11 00:01:55.504 +01:00 [DBG] Connection id "0HM5LNESGJHQP" stopped.
+2021-01-11 00:01:55.512 +01:00 [DBG] Connection id "0HM5LNESGJHQO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-01-11 00:01:55.512 +01:00 [DBG] Connection id "0HM5LNESGJHQP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-01-11 00:01:58.147 +01:00 [DBG] Connection id "0HM5LNESGJHQQ" accepted.
+2021-01-11 00:01:58.149 +01:00 [DBG] Connection id "0HM5LNESGJHQQ" started.
+2021-01-11 00:01:58.242 +01:00 [DBG] Connection "0HM5LNESGJHQQ" established using the following protocol: "Tls12"
+2021-01-11 00:01:58.323 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-01-11 00:01:58.327 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-11 00:01:58.464 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 143.2620ms
+2021-01-11 00:01:58.722 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-01-11 00:01:58.861 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 134.4363ms
+2021-01-11 00:02:07.601 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/weatherforecast - -
+2021-01-11 00:02:07.616 +01:00 [DBG] The request path  does not match the path filter
+2021-01-11 00:02:07.777 +01:00 [DBG] 1 candidate(s) found for the request path '/weatherforecast'
+2021-01-11 00:02:07.792 +01:00 [DBG] Endpoint 'API.Controllers.WeatherForecastController.Get (API)' with route pattern 'WeatherForecast' is valid for the request path '/weatherforecast'
+2021-01-11 00:02:07.798 +01:00 [DBG] Request matched endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2021-01-11 00:02:07.806 +01:00 [INF] Executing endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2021-01-11 00:02:07.818 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider"]
+2021-01-11 00:02:07.857 +01:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[API.WeatherForecast] Get() on controller API.Controllers.WeatherForecastController (API).
+2021-01-11 00:02:08.607 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-11 00:02:08.617 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-01-11 00:02:08.636 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-01-11 00:02:08.651 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-11 00:02:08.655 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-11 00:02:08.660 +01:00 [DBG] Executing controller factory for controller API.Controllers.WeatherForecastController (API)
+2021-01-11 00:02:08.662 +01:00 [DBG] Executed controller factory for controller API.Controllers.WeatherForecastController (API)
+2021-01-11 00:02:08.666 +01:00 [INF] called weather forecast
+2021-01-11 00:02:08.672 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-01-11 00:02:08.683 +01:00 [DBG] No information found on request to perform content negotiation.
+2021-01-11 00:02:08.685 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-01-11 00:02:08.689 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-01-11 00:02:08.691 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-01-11 00:02:08.695 +01:00 [INF] Executing ObjectResult, writing value of type 'API.WeatherForecast[]'.
+2021-01-11 00:02:08.721 +01:00 [INF] Executed action API.Controllers.WeatherForecastController.Get (API) in 54.6955ms
+2021-01-11 00:02:08.724 +01:00 [INF] Executed endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2021-01-11 00:02:08.726 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/weatherforecast - - - 200 - application/json;+charset=utf-8 1124.9797ms
+2021-01-11 00:16:35.588 +01:00 [INF] Now listening on: https://localhost:5001
+2021-01-11 00:16:35.720 +01:00 [INF] Now listening on: http://localhost:5000
+2021-01-11 00:16:35.722 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-11 00:16:35.723 +01:00 [INF] Hosting environment: Development
+2021-01-11 00:16:35.724 +01:00 [INF] Content root path: D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API
+2021-01-11 00:16:40.590 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-01-11 00:16:40.723 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 137.6382ms
+2021-01-11 00:16:40.906 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2021-01-11 00:16:40.934 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-01-11 00:16:40.938 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 0 628 image/png 31.3376ms
+2021-01-11 00:16:41.001 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-01-11 00:16:41.137 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 136.1926ms
+2021-01-11 00:16:50.608 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/weatherforecast - -
+2021-01-11 00:16:50.771 +01:00 [INF] Executing endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2021-01-11 00:16:50.863 +01:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[API.WeatherForecast] Get() on controller API.Controllers.WeatherForecastController (API).
+2021-01-11 00:16:50.884 +01:00 [INF] Executing ObjectResult, writing value of type 'API.WeatherForecast[]'.
+2021-01-11 00:16:50.906 +01:00 [INF] Executed action API.Controllers.WeatherForecastController.Get (API) in 28.0497ms
+2021-01-11 00:16:50.911 +01:00 [INF] Executed endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2021-01-11 00:16:50.913 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/weatherforecast - - - 200 - application/json;+charset=utf-8 305.5074ms
+2021-01-11 00:26:53.598 +01:00 [INF] Now listening on: https://localhost:5001
+2021-01-11 00:26:53.701 +01:00 [INF] Now listening on: http://localhost:5000
+2021-01-11 00:26:53.702 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-11 00:26:53.703 +01:00 [INF] Hosting environment: Development
+2021-01-11 00:26:53.704 +01:00 [INF] Content root path: D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API
+2021-01-11 00:26:57.886 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-01-11 00:26:58.021 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 138.8349ms
+2021-01-11 00:26:58.319 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-01-11 00:26:58.462 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.5056ms
+2021-01-11 00:27:07.795 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Applicant - -
+2021-01-11 00:27:07.862 +01:00 [INF] Executing endpoint 'API.Controllers.ApplicantController.Get (API)'
+2021-01-11 00:27:07.888 +01:00 [INF] Route matched with {action = "Get", controller = "Applicant"}. Executing controller action with signature System.Collections.Generic.List`1[Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.ApplicantDTO] Get() on controller API.Controllers.ApplicantController (API).
+2021-01-11 00:27:10.292 +01:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantsDB 
+2021-01-11 00:27:10.548 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-01-11 00:27:10.563 +01:00 [INF] called applicant/get
+2021-01-11 00:27:10.827 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.ApplicantDTO, Hahn.ApplicatonProcess.December2020.Domain.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-11 00:27:10.850 +01:00 [INF] Executed action API.Controllers.ApplicantController.Get (API) in 2951.662ms
+2021-01-11 00:27:10.853 +01:00 [INF] Executed endpoint 'API.Controllers.ApplicantController.Get (API)'
+2021-01-11 00:27:10.855 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Applicant - - - 200 - application/json;+charset=utf-8 3060.5967ms
+2021-01-11 00:27:20.599 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Applicant/3 - -
+2021-01-11 00:27:20.608 +01:00 [INF] Executing endpoint 'API.Controllers.ApplicantController.Get (API)'
+2021-01-11 00:27:20.685 +01:00 [INF] Route matched with {action = "Get", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.ApplicantDTO] Get(Int32) on controller API.Controllers.ApplicantController (API).
+2021-01-11 00:27:20.989 +01:00 [INF] called applicant/get/id
+2021-01-11 00:27:21.092 +01:00 [INF] Executing ObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.ApplicantDTO'.
+2021-01-11 00:27:21.097 +01:00 [INF] Executed action API.Controllers.ApplicantController.Get (API) in 392.6187ms
+2021-01-11 00:27:21.099 +01:00 [INF] Executed endpoint 'API.Controllers.ApplicantController.Get (API)'
+2021-01-11 00:27:21.100 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Applicant/3 - - - 200 - application/json;+charset=utf-8 502.3396ms
+2021-01-11 00:27:39.511 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:5001/api/Applicant/2 application/json 137
+2021-01-11 00:27:39.517 +01:00 [INF] Executing endpoint 'API.Controllers.ApplicantController.Update (API)'
+2021-01-11 00:27:39.536 +01:00 [INF] Route matched with {action = "Update", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Update(Int32, Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.UpdateApplicantDTO) on controller API.Controllers.ApplicantController (API).
+2021-01-11 00:27:40.590 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-11 00:27:40.796 +01:00 [INF] Executed action API.Controllers.ApplicantController.Update (API) in 1241.1072ms
+2021-01-11 00:27:40.800 +01:00 [INF] Executed endpoint 'API.Controllers.ApplicantController.Update (API)'
+2021-01-11 00:27:40.809 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:5001/api/Applicant/2 application/json 137 - 400 - application/problem+json;+charset=utf-8 1299.2934ms
+2021-01-11 00:33:53.407 +01:00 [INF] Now listening on: https://localhost:5001
+2021-01-11 00:33:53.468 +01:00 [INF] Now listening on: http://localhost:5000
+2021-01-11 00:33:53.471 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-11 00:33:53.472 +01:00 [INF] Hosting environment: Development
+2021-01-11 00:33:53.473 +01:00 [INF] Content root path: D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API
+2021-01-11 00:33:57.526 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-01-11 00:33:57.671 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 148.2636ms
+2021-01-11 00:33:57.848 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2021-01-11 00:33:57.876 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-01-11 00:33:57.879 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 0 628 image/png 30.3420ms
+2021-01-11 00:33:57.961 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-01-11 00:33:58.100 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 138.7635ms
+2021-01-11 00:34:30.982 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:5001/api/Applicant/2 application/json 152
+2021-01-11 00:34:31.136 +01:00 [INF] Executing endpoint 'API.Controllers.ApplicantController.Update (API)'
+2021-01-11 00:34:31.264 +01:00 [INF] Route matched with {action = "Update", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Update(Int32, Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.UpdateApplicantDTO) on controller API.Controllers.ApplicantController (API).
+2021-01-11 00:34:31.787 +01:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantsDB 
+2021-01-11 00:34:31.964 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-01-11 00:34:32.111 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-11 00:34:32.138 +01:00 [INF] Executed action API.Controllers.ApplicantController.Update (API) in 861.9541ms
+2021-01-11 00:34:32.142 +01:00 [INF] Executed endpoint 'API.Controllers.ApplicantController.Update (API)'
+2021-01-11 00:34:32.143 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:5001/api/Applicant/2 application/json 152 - 400 - application/problem+json;+charset=utf-8 1161.5179ms
+2021-01-11 00:34:42.475 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:5001/api/Applicant/2 application/json 152
+2021-01-11 00:34:42.486 +01:00 [INF] Executing endpoint 'API.Controllers.ApplicantController.Update (API)'
+2021-01-11 00:34:42.496 +01:00 [INF] Route matched with {action = "Update", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Update(Int32, Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.UpdateApplicantDTO) on controller API.Controllers.ApplicantController (API).
+2021-01-11 00:34:49.352 +01:00 [INF] called applicant/update/id
+2021-01-11 00:34:49.887 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-01-11 00:34:49.889 +01:00 [INF] applicant with id 2 is updated successfully
+2021-01-11 00:34:49.893 +01:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 204
+2021-01-11 00:34:49.895 +01:00 [INF] Executed action API.Controllers.ApplicantController.Update (API) in 7361.6615ms
+2021-01-11 00:34:49.898 +01:00 [INF] Executed endpoint 'API.Controllers.ApplicantController.Update (API)'
+2021-01-11 00:34:49.900 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:5001/api/Applicant/2 application/json 152 - 204 - - 7425.8897ms

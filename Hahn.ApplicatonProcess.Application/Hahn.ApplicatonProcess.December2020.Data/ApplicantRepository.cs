@@ -143,5 +143,45 @@ namespace Hahn.ApplicatonProcess.December2020.Data
                 throw E;
             }
         }
+
+        public PagedResult<Applicant> GetAllFilteredPaged(Expression<Func<Applicant, bool>> predicate, string orderBy, string orderDirection, int startRowIndex = 0, int maxRows = 10)
+        {
+            //this function returns 'maxRows' row of elections, skipping 'startRowIndex' rows, ordered by the column 'orderBy' and direction of ordering
+            //according to 'orderDirection' .... all filtered according to the expression 'predicate'
+            try
+            {
+                //in case there is no ordering requested
+                List<Applicant> applicants = _dbSet.Where(predicate).AsNoTracking().ToList();
+                int totalCount = applicants.Count;
+                applicants = applicants.Skip(startRowIndex).Take(maxRows).ToList();
+                PagedResult<Applicant> p = new PagedResult<Applicant>(applicants, totalCount);
+                return p;
+            }
+            catch (Exception E)
+            {
+                throw E;
+            }
+        }
+
+
+        public PagedResult<Applicant> GetAllPaged(string orderBy, string orderDirection, int startRowIndex = 0, int maxRows = 10)
+        {
+            //this function returns 'maxRows' row of elections, skipping 'startRowIndex', ordered by the column 'orderBy' and direction of ordering
+            //according to 'orderDirection'
+            try
+            {
+                //in case there is no ordering requested
+                var applicants = _dbSet.AsNoTracking().ToList();
+                int totalCount = applicants.Count;
+                applicants = applicants.Skip(startRowIndex).Take(maxRows).ToList();
+                PagedResult<Applicant> p = new PagedResult<Applicant>(applicants, totalCount);
+                return p;
+            }
+            catch (Exception E)
+            {
+                throw E;
+            }
+        }
+
     }
 }

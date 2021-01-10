@@ -184,5 +184,15 @@ namespace Hahn.ApplicatonProcess.December2020.Domain.Business.BusinessServices
                 throw new BusinessException("Email address already exists.");
             }
         }
+
+        public PagedResult<Applicant> GetAllFilteredPaged(Expression<Func<Applicant, bool>> predicate, string orderBy = "Id", int startRowIndex = 1, int maxRows = 10)
+        {
+            return _applicantRepository.GetAllFilteredPaged(predicate, orderBy, startRowIndex, maxRows);
+        }
+
+        public PagedResult<Applicant> GetAllPaged(string orderBy = "Id", int startRowIndex = 1, int maxRows = 10)
+        {
+            return _applicantRepository.GetAllPaged(orderBy, startRowIndex, maxRows);
+        }
     }
 }

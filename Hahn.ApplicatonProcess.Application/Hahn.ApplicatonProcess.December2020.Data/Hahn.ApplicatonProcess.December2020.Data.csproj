@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Linq.Dynamic" Version="1.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Hahn.ApplicatonProcess.December2020.DataAbstraction\DataAbstraction.csproj" />
     <ProjectReference Include="..\Hahn.ApplicatonProcess.December2020.Domain\Hahn.ApplicatonProcess.December2020.Domain.Models.csproj" />
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />

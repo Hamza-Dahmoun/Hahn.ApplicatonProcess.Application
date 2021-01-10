@@ -40,6 +40,18 @@
           "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {}
         }
       },
+      "Linq.Dynamic/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Linq.Dynamic.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Linq.Dynamic.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.7": {
         "type": "package",
         "dependencies": {
@@ -1080,7 +1092,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.1/_._": {}
+          "ref/netstandard1.1/System.Reflection.Emit.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.dll": {}
@@ -1094,7 +1106,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {}
@@ -1628,7 +1640,8 @@
         "dependencies": {
           "DataAbstraction": "1.0.0",
           "Hahn.ApplicatonProcess.December2020.Domain.Models": "1.0.0",
-          "Infrastructure": "1.0.0"
+          "Infrastructure": "1.0.0",
+          "Linq.Dynamic": "1.0.4"
         },
         "compile": {
           "bin/placeholder/Hahn.ApplicatonProcess.December2020.Data.dll": {}
@@ -1743,6 +1756,23 @@
         "fluentvalidation.dependencyinjectionextensions.nuspec",
         "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
         "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
+    "Linq.Dynamic/1.0.4": {
+      "sha512": "Wwv//2EPGx56vrkJircaCFV++o62M9SNuj5v64BSey451FHvH8n+VDrhDzPL1atMRLbvQlri4hAaXg/6NjQZNQ==",
+      "type": "package",
+      "path": "linq.dynamic/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Linq.Dynamic.dll",
+        "lib/net45/System.Linq.Dynamic.pdb",
+        "lib/net45/System.Linq.Dynamic.xml",
+        "lib/netstandard2.0/System.Linq.Dynamic.dll",
+        "lib/netstandard2.0/System.Linq.Dynamic.pdb",
+        "lib/netstandard2.0/System.Linq.Dynamic.xml",
+        "linq.dynamic.1.0.4.nupkg.sha512",
+        "linq.dynamic.nuspec"
       ]
     },
     "Microsoft.AspNet.WebApi.Client/5.2.7": {

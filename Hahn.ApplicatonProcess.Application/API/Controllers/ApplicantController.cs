@@ -74,7 +74,7 @@ namespace API.Controllers
             catch (DataNotUpdatedException E)
             {
                 _logger.LogError("Server error! could not delete applicant with id " + id.ToString());
-                return StatusCode(500, _localizer["Server error! "] + E.Message);
+                return StatusCode(500, _localizer["Server error! "] + _localizer[E.Message]);
             }
             catch (Exception E)
             {
@@ -111,12 +111,12 @@ namespace API.Controllers
             catch (BusinessException E)
             {
                 _logger.LogError("business rule not met when trying to update applicant with id " + id.ToString() + ". " + E.Message);
-                return StatusCode(400, _localizer["Server error! "] + E.Message);
+                return StatusCode(400, _localizer["Server error! "] + _localizer[E.Message]);
             }
             catch (DataNotUpdatedException E)
             {
                 _logger.LogError("Server error! could not update applicant with id " + id.ToString() + ". " + E.Message);
-                return StatusCode(500, _localizer["Server error! "] + E.Message);
+                return StatusCode(500, _localizer["Server error! "] + _localizer[E.Message]);
             }
             catch (Exception E)
             {
@@ -149,12 +149,12 @@ namespace API.Controllers
             catch (BusinessException E)
             {
                 _logger.LogError("business rule not met when trying to insert new applicant. " + E.Message);
-                return StatusCode(400, _localizer["Server error! "] + E.Message);
+                return StatusCode(400, _localizer["Server error! "] + _localizer[E.Message]);
             }
             catch (DataNotUpdatedException E)
             {
                 _logger.LogError("server error! could not insert the new applicant");
-                return StatusCode(500, _localizer["Server error! "] + E.Message);
+                return StatusCode(500, _localizer["Server error! "] + _localizer[E.Message]);
             }
             catch (Exception E)
             {

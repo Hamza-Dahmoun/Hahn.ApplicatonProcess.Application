@@ -12,5 +12,9 @@
   " is inserted successfully": " wird erfolgreich eingefügt",
   "business rule not met when trying to insert new applicant. ": "Geschäftsregel nicht erfüllt, wenn versucht wird, einen neuen Bewerber einzufügen. ",
   "server error! could not insert the new applicant": "Serverfehler! konnte den neuen Antragsteller nicht einfügen",
-  "Server error! Create operation failed.": "Serverfehler! Erstellungsvorgang fehlgeschlagen."
+  "Server error! Create operation failed.": "Serverfehler! Erstellungsvorgang fehlgeschlagen.",
+  "Email address already exists.": "Diese E-Mail Adresse ist bereits vergeben.",
+  "Update operation failed!": "Update-Vorgang fehlgeschlagen!",
+  "Delete operation failed!": "Löschvorgang fehlgeschlagen!",
+  "Create operation failed!": "Erstellungsvorgang fehlgeschlagen!"
 }

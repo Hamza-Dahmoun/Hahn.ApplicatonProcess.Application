@@ -12,5 +12,10 @@
   " is inserted successfully": " is inserted successfully",
   "business rule not met when trying to insert new applicant. ": "business rule not met when trying to insert new applicant. ",
   "server error! could not insert the new applicant": "server error! could not insert the new applicant",
-  "Server error! Create operation failed.": "Server error! Create operation failed."
+  "Server error! Create operation failed.": "Server error! Create operation failed.",
+  "Email address already exists.": "Email address already exists.",
+  "Update operation failed!": "Update operation failed!",
+  "Delete operation failed!": "Delete operation failed!",
+  "Create operation failed!": "Create operation failed!"
+
 }

@@ -21,6 +21,8 @@ using FluentValidation.AspNetCore;
 using FluentValidation;
 using Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs;
 using Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.Validators;
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
 
 namespace API
 {
@@ -36,6 +38,9 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //registering localization service using json file
+            services.AddJsonLocalization();
+
             //regiter an inMemory database context with a singleton life time so that CRUD operations on the data that are in memory will clear and understandable
             services.AddDbContext<ApplicationDBContext>(options => options.UseInMemoryDatabase(databaseName: "ApplicantsDB"), ServiceLifetime.Singleton);
 
@@ -62,6 +67,19 @@ namespace API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            var supportedCultures = new List<CultureInfo>
+            {
+                new CultureInfo("en-US"),
+                new CultureInfo("de-DE")
+            };
+            var options = new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new RequestCulture("en-US"),
+                SupportedCultures = supportedCultures,
+                SupportedUICultures = supportedCultures
+            };
+            app.UseRequestLocalization(options);
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

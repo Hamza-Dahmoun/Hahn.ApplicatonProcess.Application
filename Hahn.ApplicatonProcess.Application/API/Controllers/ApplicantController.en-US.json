@@ -1,0 +1,20 @@
+{
+  "called applicant/get/id": "called applicant/get/id",
+  "called applicant/delete/id": "called applicant/delete/id",
+  "applicant to delete with id ": "applicant to delete with id ",
+  " is NotFound!": " is NotFound!",
+  "applicant with id ": "applicant with id ",
+  " is deleted successfully": " is deleted successfully",
+  "Server error! could not delete applicant with id ": "Server error! could not delete applicant with id ",
+  "Server error! ": "Server error! ",
+  "called applicant/update/id": "called applicant/update/id",
+  "applicant to update with id ": "applicant to update with id ",
+  " is updated successfully": " is updated successfully",
+  "business rule not met when trying to update applicant with id ": "business rule not met when trying to update applicant with id ",
+  "Server error! could not update applicant with id ": "Server error! could not update applicant with id ",
+  "called applicant/create/id": "called applicant/create/id",
+  " is inserted successfully": " is inserted successfully",
+  "business rule not met when trying to insert new applicant. ": "business rule not met when trying to insert new applicant. ",
+  "server error! could not insert the new applicant": "server error! could not insert the new applicant",
+  "Server error! Create operation failed.": "Server error! Create operation failed."
+}

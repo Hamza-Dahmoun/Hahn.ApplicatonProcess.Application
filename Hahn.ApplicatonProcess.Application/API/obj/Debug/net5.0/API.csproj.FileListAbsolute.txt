@@ -66,3 +66,8 @@ D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API\bin
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API\bin\Debug\net5.0\Serilog.Sinks.Console.dll
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API\bin\Debug\net5.0\Serilog.Sinks.File.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API\bin\Debug\net5.0\en-US\API.resources.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API\bin\Debug\net5.0\Embedded.Json.Localization.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API\obj\Debug\net5.0\en-US\API.resources.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API\bin\Debug\net5.0\de-DE\API.resources.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API\obj\Debug\net5.0\de-DE\API.resources.dll

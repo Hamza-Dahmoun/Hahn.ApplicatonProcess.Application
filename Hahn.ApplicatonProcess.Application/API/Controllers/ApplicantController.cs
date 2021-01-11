@@ -7,6 +7,7 @@ using Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs;
 using Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.Validators;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -21,23 +22,27 @@ namespace API.Controllers
     {
         protected readonly ApplicantBusinessService _applicantBusinessService;
         private readonly ILogger<WeatherForecastController> _logger;
-        public ApplicantController(ApplicantBusinessService applicantBusinessService, ILogger<WeatherForecastController> logger)
+        private readonly IStringLocalizer<ApplicantController> _localizer;
+
+        public ApplicantController(ApplicantBusinessService applicantBusinessService, ILogger<WeatherForecastController> logger,
+            IStringLocalizer<ApplicantController> localizer)
         {
             _applicantBusinessService = applicantBusinessService;
             _logger = logger;
+            _localizer = localizer;
         }
 
         [HttpGet]
         public List<ApplicantDTO> Get()
         {
-            _logger.LogInformation("called applicant/get");
+            _logger.LogInformation(_localizer["called applicant/get"]);
             return _applicantBusinessService.GetAll().Select(applicant =>applicant.AsDTO()).ToList();
         }
 
         [HttpGet("{id}")]
         public ActionResult<ApplicantDTO> Get(int id)
         {
-            _logger.LogInformation("called applicant/get/id");
+            _logger.LogInformation(_localizer["called applicant/get/id"]);
             var applicant = _applicantBusinessService.GetById(id);
             if (applicant == null)
             {
@@ -55,26 +60,26 @@ namespace API.Controllers
             
             try
             {
-                _logger.LogInformation("called applicant/delete/id");
+                _logger.LogInformation(_localizer["called applicant/delete/id"]);
                 var applicant = _applicantBusinessService.GetById(id);
                 if (applicant == null)
                 {
-                    _logger.LogWarning("applicant to delete with id " + id.ToString() + " is NotFound!");
+                    _logger.LogWarning(_localizer["applicant to delete with id "] + id.ToString() + _localizer[" is NotFound!"]);
                     return NotFound();
                 }
                 _applicantBusinessService.Delete(applicant);
-                _logger.LogInformation("applicant with id " + id.ToString() + " is deleted successfully");
+                _logger.LogInformation(_localizer["applicant with id "] + id.ToString() + _localizer[" is deleted successfully"]);
                 return NoContent();
             }
             catch (DataNotUpdatedException E)
             {
-                _logger.LogError("server error! could not delete applicant with id " + id.ToString());
-                return StatusCode(500, "Server error! " + E.Message);
+                _logger.LogError(_localizer["Server error! could not delete applicant with id "] + id.ToString());
+                return StatusCode(500, _localizer["Server error! "] + E.Message);
             }
             catch (Exception E)
             {
-                _logger.LogError("server error! " + E.Message);
-                return StatusCode(500, "Server error!");
+                _logger.LogError(_localizer["Server error! "] + E.Message);
+                return StatusCode(500, _localizer["Server error!"]);
             }
         }
 
@@ -83,11 +88,11 @@ namespace API.Controllers
         {
             try
             {
-                _logger.LogInformation("called applicant/update/id");
+                _logger.LogInformation(_localizer["called applicant/update/id"]);
                 var existingApplicant = _applicantBusinessService.GetById(id);
                 if (existingApplicant == null)
                 {
-                    _logger.LogWarning("applicant to update with id " + id.ToString() + " is NotFound!");
+                    _logger.LogWarning(_localizer["applicant to update with id "] + id.ToString() + _localizer[" is NotFound!"]);
                     return NotFound();
                 }
 
@@ -100,23 +105,23 @@ namespace API.Controllers
                 existingApplicant.Hired = applicantDTO.Hired;
 
                 _applicantBusinessService.Update(existingApplicant);
-                _logger.LogInformation("applicant with id " + id.ToString() + " is updated successfully");
+                _logger.LogInformation(_localizer["applicant with id "] + id.ToString() + _localizer[" is updated successfully"]);
                 return NoContent();
             }
             catch (BusinessException E)
             {
-                _logger.LogError("business rule not met when trying to update applicant with id " + id.ToString() + ". " + E.Message);
-                return StatusCode(400, "Server error! " + E.Message);
+                _logger.LogError(_localizer["business rule not met when trying to update applicant with id "] + id.ToString() + ". " + E.Message);
+                return StatusCode(400, _localizer["Server error! "] + E.Message);
             }
             catch (DataNotUpdatedException E)
             {
-                _logger.LogError("server error! could not update applicant with id " + id.ToString());
-                return StatusCode(500, "Server error! " + E.Message);
+                _logger.LogError(_localizer["Server error! could not update applicant with id "] + id.ToString());
+                return StatusCode(500, _localizer["Server error! "] + E.Message);
             }
             catch (Exception E)
             {
-                _logger.LogError("server error! " + E.Message);
-                return StatusCode(500, "Server error!");
+                _logger.LogError(_localizer["Server error! "] + E.Message);
+                return StatusCode(500, _localizer["Server error!"]);
             }
         }
 
@@ -125,7 +130,7 @@ namespace API.Controllers
         {
             try
             {
-                _logger.LogInformation("called applicant/create/id");
+                _logger.LogInformation(_localizer["called applicant/create/id"]);
                 Applicant applicant = new()
                 {
                     Name = applicantDTO.Name,
@@ -138,23 +143,23 @@ namespace API.Controllers
                 };
 
                 _applicantBusinessService.Add(applicant);
-                _logger.LogInformation("applicant with id " + applicant.ID.ToString() + " is inserted successfully");
+                _logger.LogInformation(_localizer["applicant with id "] + applicant.ID.ToString() + _localizer[" is inserted successfully"]);
                 return CreatedAtAction(nameof(Get), new { applicant.ID }, applicant);
             }
             catch (BusinessException E)
             {
-                _logger.LogError("business rule not met when trying to insert new applicant. " + E.Message);
-                return StatusCode(400, "Server error! " + E.Message);
+                _logger.LogError(_localizer["business rule not met when trying to insert new applicant. "] + E.Message);
+                return StatusCode(400, _localizer["Server error! "] + E.Message);
             }
             catch (DataNotUpdatedException E)
             {
-                _logger.LogError("server error! could not insert the new applicant");
-                return StatusCode(500, "Server error! " + E.Message);
+                _logger.LogError(_localizer["server error! could not insert the new applicant"]);
+                return StatusCode(500, _localizer["Server error! "] + E.Message);
             }
             catch (Exception E)
             {
-                _logger.LogError("server error! " + E.Message);
-                return StatusCode(500, "Server error! Create operation failed.");
+                _logger.LogError(_localizer["server error! "] + E.Message);
+                return StatusCode(500, _localizer["Server error! Create operation failed."]);
             }
         }
     }

@@ -130,7 +130,7 @@ namespace API.Controllers
         {
             try
             {
-                _logger.LogInformation(_localizer["called applicant/create/id"]);
+                _logger.LogInformation(_localizer["called applicant/create"]);
                 Applicant applicant = new()
                 {
                     Name = applicantDTO.Name,

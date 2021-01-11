@@ -206,3 +206,55 @@ System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport
 2021-01-11 01:46:19.774 +01:00 [INF] Executed action API.Controllers.ApplicantController.Create (API) in 1726.9479ms
 2021-01-11 01:46:19.781 +01:00 [INF] Executed endpoint 'API.Controllers.ApplicantController.Create (API)'
 2021-01-11 01:46:19.790 +01:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Applicant application/json 154 - 201 - application/json;+charset=utf-8 1820.4791ms
+2021-01-11 01:49:23.924 +01:00 [INF] Now listening on: https://localhost:5001
+2021-01-11 01:49:24.267 +01:00 [INF] Now listening on: http://localhost:5000
+2021-01-11 01:49:24.270 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-11 01:49:24.271 +01:00 [INF] Hosting environment: Development
+2021-01-11 01:49:24.272 +01:00 [INF] Content root path: D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API
+2021-01-11 01:49:28.293 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-01-11 01:49:28.522 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 233.1940ms
+2021-01-11 01:49:28.801 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2021-01-11 01:49:28.840 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-01-11 01:49:28.842 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 0 628 image/png 41.5237ms
+2021-01-11 01:49:28.928 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-01-11 01:49:29.082 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 153.7543ms
+2021-01-11 01:49:54.877 +01:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Applicant application/json 144
+2021-01-11 01:49:55.139 +01:00 [INF] Executing endpoint 'API.Controllers.ApplicantController.Create (API)'
+2021-01-11 01:49:55.247 +01:00 [INF] Route matched with {action = "Create", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.ApplicantDTO] Create(Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.CreateApplicantDTO) on controller API.Controllers.ApplicantController (API).
+2021-01-11 01:49:55.798 +01:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantsDB 
+2021-01-11 01:49:55.959 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-01-11 01:49:56.201 +01:00 [INF] Could not find satellite assembly for fallback 'en': Could not load file or assembly 'API.resources, Version=1.0.0.0, Culture=en, PublicKeyToken=null'. Le fichier spécifié est introuvable.
+2021-01-11 01:49:56.203 +01:00 [INF] called applicant/create
+2021-01-11 01:49:56.437 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-01-11 01:49:56.440 +01:00 [INF] applicant with id 4 is inserted successfully
+2021-01-11 01:49:56.447 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Models.Applicant'.
+2021-01-11 01:49:56.509 +01:00 [INF] Executed action API.Controllers.ApplicantController.Create (API) in 1252.1398ms
+2021-01-11 01:49:56.512 +01:00 [INF] Executed endpoint 'API.Controllers.ApplicantController.Create (API)'
+2021-01-11 01:49:56.513 +01:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Applicant application/json 144 - 201 - application/json;+charset=utf-8 1636.7549ms
+2021-01-11 01:50:29.582 +01:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Applicant application/json 144
+2021-01-11 01:50:29.586 +01:00 [INF] Executing endpoint 'API.Controllers.ApplicantController.Create (API)'
+2021-01-11 01:50:29.588 +01:00 [INF] Route matched with {action = "Create", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.ApplicantDTO] Create(Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.CreateApplicantDTO) on controller API.Controllers.ApplicantController (API).
+2021-01-11 01:50:29.601 +01:00 [INF] called applicant/create
+2021-01-11 01:50:30.312 +01:00 [ERR] business rule not met when trying to insert new applicant. Email address already exists.
+2021-01-11 01:50:30.315 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-01-11 01:50:30.319 +01:00 [INF] Executed action API.Controllers.ApplicantController.Create (API) in 722.2809ms
+2021-01-11 01:50:30.321 +01:00 [INF] Executed endpoint 'API.Controllers.ApplicantController.Create (API)'
+2021-01-11 01:50:30.326 +01:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Applicant application/json 144 - 400 - text/plain;+charset=utf-8 743.9110ms
+2021-01-11 01:50:41.442 +01:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Applicant application/json 145
+2021-01-11 01:50:41.449 +01:00 [INF] Executing endpoint 'API.Controllers.ApplicantController.Create (API)'
+2021-01-11 01:50:41.461 +01:00 [INF] Route matched with {action = "Create", controller = "Applicant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.ApplicantDTO] Create(Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.CreateApplicantDTO) on controller API.Controllers.ApplicantController (API).
+2021-01-11 01:50:41.496 +01:00 [INF] called applicant/create
+2021-01-11 01:50:41.511 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-01-11 01:50:41.515 +01:00 [INF] applicant with id 5 is inserted successfully
+2021-01-11 01:50:41.521 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Models.Applicant'.
+2021-01-11 01:50:41.526 +01:00 [INF] Executed action API.Controllers.ApplicantController.Create (API) in 36.7943ms
+2021-01-11 01:50:41.533 +01:00 [INF] Executed endpoint 'API.Controllers.ApplicantController.Create (API)'
+2021-01-11 01:50:41.536 +01:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Applicant application/json 145 - 201 - application/json;+charset=utf-8 94.4795ms
+2021-01-11 01:50:48.624 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Applicant - -
+2021-01-11 01:50:48.629 +01:00 [INF] Executing endpoint 'API.Controllers.ApplicantController.Get (API)'
+2021-01-11 01:50:48.639 +01:00 [INF] Route matched with {action = "Get", controller = "Applicant"}. Executing controller action with signature System.Collections.Generic.List`1[Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.ApplicantDTO] Get() on controller API.Controllers.ApplicantController (API).
+2021-01-11 01:50:48.649 +01:00 [INF] called applicant/get
+2021-01-11 01:50:48.695 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.ApplicantDTO, Hahn.ApplicatonProcess.December2020.Domain.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-11 01:50:48.702 +01:00 [INF] Executed action API.Controllers.ApplicantController.Get (API) in 53.9201ms
+2021-01-11 01:50:48.704 +01:00 [INF] Executed endpoint 'API.Controllers.ApplicantController.Get (API)'
+2021-01-11 01:50:48.706 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Applicant - - - 200 - application/json;+charset=utf-8 82.4954ms

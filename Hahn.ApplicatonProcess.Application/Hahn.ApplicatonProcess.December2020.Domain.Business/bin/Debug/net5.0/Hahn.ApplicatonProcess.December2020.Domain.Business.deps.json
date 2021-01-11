@@ -199,6 +199,14 @@
           "Microsoft.Extensions.Logging.Abstractions": "5.0.0"
         }
       },
+      "Microsoft.Extensions.Localization.Abstractions/5.0.1": {
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.120.60107"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/5.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "5.0.0",
@@ -726,10 +734,16 @@
       "Hahn.ApplicatonProcess.December2020.Domain.Models/1.0.0": {
         "dependencies": {
           "DataAbstraction": "1.0.0",
-          "FluentValidation.AspNetCore": "9.3.0"
+          "FluentValidation.AspNetCore": "9.3.0",
+          "Microsoft.Extensions.Localization.Abstractions": "5.0.1"
         },
         "runtime": {
           "Hahn.ApplicatonProcess.December2020.Domain.Models.dll": {}
+        },
+        "resources": {
+          "en-US/Hahn.ApplicatonProcess.December2020.Domain.Models.resources.dll": {
+            "locale": "en-US"
+          }
         }
       },
       "Infrastructure/1.0.0": {
@@ -889,6 +903,13 @@
       "sha512": "sha512-BpMaoBxdXr5VD0yk7rYN6R8lAU9X9JbvsPveNdKT+llIn3J5s4sxpWqaSG/NnzTzTLU5eJE5nrecTl7clg/7dQ==",
       "path": "microsoft.extensions.hosting.abstractions/2.1.0",
       "hashPath": "microsoft.extensions.hosting.abstractions.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Localization.Abstractions/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PRWL1eYQOrKP8StpIupWv+rFTrMQ6N593GtHQxx/6dM5YPf0k3O5weHgBB3s9cb/zlXJjn7vpKzPgGjHT8teNQ==",
+      "path": "microsoft.extensions.localization.abstractions/5.0.1",
+      "hashPath": "microsoft.extensions.localization.abstractions.5.0.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/5.0.0": {
       "type": "package",

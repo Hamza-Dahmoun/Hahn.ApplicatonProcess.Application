@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sUb1z5KZfZRB3h5gb49slrMUalTic0ZHQZ4Q9Iei3OLMC66pEDj30JbNRd4ILs5tj8e0ZfXk5+31VpkBq4h27w==",
+  "dgSpecHash": "0Nl0HBQuIaRsNlfotjgg7Wuwcuy3dlgBswJWAnVX0XPKamZcKV8wcSisc7Wwm2iliRxgTmOpu+qEZm6XgwTJzg==",
   "success": true,
   "projectFilePath": "D:\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\5.0.1\\microsoft.extensions.localization.abstractions.5.0.1.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",

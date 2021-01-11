@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ego2+aGe7zoydUUORnVvtZqMYV9h2Eaxif5+W8DSy9i5l4i2nJmYJ6xujcVHECn0Mr6Xw2g7fCIMiDeQCFvi0w==",
+  "dgSpecHash": "425QQPpsTednptJQHjm/8MOr0PXuiHi4tS08thTZmpxDOqCw/wcQNxL+tN6N8/ynNofrsYKPDmhdAXD8PmpvyQ==",
   "success": true,
   "projectFilePath": "D:\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\MVC\\MVC.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,7 @@
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.1.0\\microsoft.extensions.fileproviders.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.1.0\\microsoft.extensions.hosting.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.localization\\2.1.1\\microsoft.extensions.localization.2.1.1.nupkg.sha512",
-    "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\2.1.1\\microsoft.extensions.localization.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\5.0.1\\microsoft.extensions.localization.abstractions.5.0.1.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",

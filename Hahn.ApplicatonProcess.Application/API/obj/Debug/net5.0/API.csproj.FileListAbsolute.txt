@@ -71,3 +71,4 @@ D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API\bin
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API\obj\Debug\net5.0\en-US\API.resources.dll
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API\bin\Debug\net5.0\de-DE\API.resources.dll
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API\obj\Debug\net5.0\de-DE\API.resources.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API\bin\Debug\net5.0\Microsoft.Extensions.Localization.Abstractions.dll

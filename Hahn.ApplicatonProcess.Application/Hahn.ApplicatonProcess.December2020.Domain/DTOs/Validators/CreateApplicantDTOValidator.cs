@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FluentValidation;
+using Microsoft.Extensions.Localization;
 
 namespace Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.Validators
 {

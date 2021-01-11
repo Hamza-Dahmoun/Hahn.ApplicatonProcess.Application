@@ -88,3 +88,4 @@ D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\Embedded.Json.Localization.dll
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\de-DE\API.resources.dll
 D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\en-US\API.resources.dll
+D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\MVC\bin\Debug\net5.0\Microsoft.Extensions.Localization.Abstractions.dll

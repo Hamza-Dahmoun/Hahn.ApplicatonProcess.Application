@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bjDdfnUi+GyHzQj8h8Cy811V1oZUo37LtB4NnF8Lf5xBl0J7AWK9MBZPmOOKEe4ZMkYN6iNsmIXUKa8MNZb8gA==",
+  "dgSpecHash": "VaEXqNTADaMkZGNlFfFZJCysoG25rtK6NRqmbuvIyBlzh0k1bMb+DZO7viCIbt1MBeIQ4IIxQOQnavRAna13XA==",
   "success": true,
   "projectFilePath": "D:\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.Domain.Business\\Hahn.ApplicatonProcess.December2020.Domain.Business.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.0.4\\microsoft.extensions.dependencymodel.2.0.4.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.1.0\\microsoft.extensions.fileproviders.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.1.0\\microsoft.extensions.hosting.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\5.0.1\\microsoft.extensions.localization.abstractions.5.0.1.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",

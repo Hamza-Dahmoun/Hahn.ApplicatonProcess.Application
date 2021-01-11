@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "4XOK2Zxigzn9M+1LC7UQgzcjLrPP+ujxaDRza8wlZ90aIb4rmbBPhoCbA13CT0c+LibW3FfCKDcjsP8WJGGJug==",
+  "dgSpecHash": "2YoTLRmA5E9d/3lXA19VxDiutG10R/HlOLN07RszR7vT+Ao+DzWw9D8covOqUjl6d+EQyBA5GO+/j/8nyN0bRw==",
   "success": true,
   "projectFilePath": "D:\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.Application\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",
     "C:\\Users\\ham.dahmoun\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.3.0\\fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
-    "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\ham.dahmoun\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\5.0.1\\microsoft.extensions.localization.abstractions.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }

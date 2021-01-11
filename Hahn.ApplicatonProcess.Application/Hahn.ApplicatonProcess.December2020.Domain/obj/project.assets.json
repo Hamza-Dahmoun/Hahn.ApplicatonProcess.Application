@@ -49,6 +49,15 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
+      "Microsoft.Extensions.Localization.Abstractions/5.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Extensions.Localization.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.Localization.Abstractions.dll": {}
+        }
+      },
       "DataAbstraction/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -125,6 +134,25 @@
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
+    "Microsoft.Extensions.Localization.Abstractions/5.0.1": {
+      "sha512": "PRWL1eYQOrKP8StpIupWv+rFTrMQ6N593GtHQxx/6dM5YPf0k3O5weHgBB3s9cb/zlXJjn7vpKzPgGjHT8teNQ==",
+      "type": "package",
+      "path": "microsoft.extensions.localization.abstractions/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Localization.Abstractions.xml",
+        "lib/net5.0/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/net5.0/Microsoft.Extensions.Localization.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.xml",
+        "microsoft.extensions.localization.abstractions.5.0.1.nupkg.sha512",
+        "microsoft.extensions.localization.abstractions.nuspec"
+      ]
+    },
     "DataAbstraction/1.0.0": {
       "type": "project",
       "path": "../Hahn.ApplicatonProcess.December2020.DataAbstraction/DataAbstraction.csproj",
@@ -134,7 +162,8 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "DataAbstraction >= 1.0.0",
-      "FluentValidation.AspNetCore >= 9.3.0"
+      "FluentValidation.AspNetCore >= 9.3.0",
+      "Microsoft.Extensions.Localization.Abstractions >= 5.0.1"
     ]
   },
   "packageFolders": {
@@ -183,6 +212,10 @@
           "FluentValidation.AspNetCore": {
             "target": "Package",
             "version": "[9.3.0, )"
+          },
+          "Microsoft.Extensions.Localization.Abstractions": {
+            "target": "Package",
+            "version": "[5.0.1, )"
           }
         },
         "imports": [

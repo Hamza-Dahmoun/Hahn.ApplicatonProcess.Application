@@ -739,11 +739,6 @@
         },
         "runtime": {
           "Hahn.ApplicatonProcess.December2020.Domain.Models.dll": {}
-        },
-        "resources": {
-          "en-US/Hahn.ApplicatonProcess.December2020.Domain.Models.resources.dll": {
-            "locale": "en-US"
-          }
         }
       },
       "Infrastructure/1.0.0": {

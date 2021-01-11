@@ -356,3 +356,28 @@ System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport
 2021-01-11 02:36:25.523 +01:00 [INF] Executed action API.Controllers.ApplicantController.Create (API) in 821.4224ms
 2021-01-11 02:36:25.526 +01:00 [INF] Executed endpoint 'API.Controllers.ApplicantController.Create (API)'
 2021-01-11 02:36:25.527 +01:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Applicant application/json 126 - 400 - application/problem+json;+charset=utf-8 924.4969ms
+2021-01-11 03:00:35.169 +01:00 [INF] Now listening on: https://localhost:5001
+2021-01-11 03:00:35.241 +01:00 [INF] Now listening on: http://localhost:5000
+2021-01-11 03:00:35.243 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-11 03:00:35.244 +01:00 [INF] Hosting environment: Development
+2021-01-11 03:00:35.246 +01:00 [INF] Content root path: D:\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application\API
+2021-01-11 03:00:39.104 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-01-11 03:00:39.287 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 186.9444ms
+2021-01-11 03:00:39.371 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2021-01-11 03:00:39.407 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-01-11 03:00:39.409 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 0 142933 text/css 38.1542ms
+2021-01-11 03:00:39.960 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2021-01-11 03:00:39.969 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-01-11 03:00:39.973 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 0 628 image/png 12.7830ms
+2021-01-11 03:00:40.058 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-01-11 03:00:40.176 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 118.6685ms
+2021-01-11 03:00:46.706 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Applicant - -
+2021-01-11 03:00:46.782 +01:00 [INF] Executing endpoint 'API.Controllers.ApplicantController.Get (API)'
+2021-01-11 03:00:46.810 +01:00 [INF] Route matched with {action = "Get", controller = "Applicant"}. Executing controller action with signature System.Collections.Generic.List`1[Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.ApplicantDTO] Get() on controller API.Controllers.ApplicantController (API).
+2021-01-11 03:00:47.330 +01:00 [INF] Entity Framework Core 5.0.0 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ApplicantsDB 
+2021-01-11 03:00:47.498 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-01-11 03:00:47.513 +01:00 [INF] called applicant/get
+2021-01-11 03:00:48.128 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.ApplicantDTO, Hahn.ApplicatonProcess.December2020.Domain.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-11 03:00:48.175 +01:00 [INF] Executed action API.Controllers.ApplicantController.Get (API) in 1348.3457ms
+2021-01-11 03:00:48.181 +01:00 [INF] Executed endpoint 'API.Controllers.ApplicantController.Get (API)'
+2021-01-11 03:00:48.190 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Applicant - - - 200 - application/json;+charset=utf-8 1484.8876ms

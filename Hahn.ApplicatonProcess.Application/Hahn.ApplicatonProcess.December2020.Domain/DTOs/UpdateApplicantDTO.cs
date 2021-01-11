@@ -8,7 +8,6 @@ namespace Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs
 {
     public record UpdateApplicantDTO
     {
-        public int ID { get; init; }
         public string Name { get; init; }
         public string FamilyName { get; init; }
         public string Address { get; init; }

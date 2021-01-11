@@ -11,8 +11,6 @@ namespace Hahn.ApplicatonProcess.December2020.Domain.Models.DTOs.Validators
     {
         public UpdateApplicantDTOValidator()
         {
-            RuleFor(a => a.ID)
-                .GreaterThan(0).WithMessage("Field 'ID' should be greater than 0, you entered {PropertyName}");
             RuleFor(a => a.Name)
                 .MinimumLength(5).WithMessage("Field 'Name' should contain at least 5 characters.");
             RuleFor(a => a.FamilyName)
